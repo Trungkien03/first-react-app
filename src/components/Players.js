@@ -29,9 +29,17 @@ export default class player extends Component {
                 </div>
                 <div className="column">
                     <div className='card'>
+                        <img src='assets/images/kane.jpg'/>
+                        <h3>Kane</h3>
+                        <p className='title'>Tottemham</p>
+                        <p><button>Detail</button></p>
+                    </div>
+                </div>
+                <div className="column">
+                    <div className='card'>
                         <img src='assets/images/neymar.jpg'/>
                         <h3>Neymar</h3>
-                        <p className='title'>Tottemham</p>
+                        <p className='title'>PSG</p>
                         <p><button>Detail</button></p>
                     </div>
                 </div>
