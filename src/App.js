@@ -7,7 +7,7 @@ function App() {
   return (
     <div className='App'>
       <Navigation/>
-      <Main/>
+      <Player/>
       <Footer/>
     </div>
   );
