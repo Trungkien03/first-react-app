@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import {Players} from '../shared/ListOfPlayers';
+import {players} from '../shared/ListOfPlayers';
 
-export default class PlayersComponent extends Component {
-  render() {
-    return (
-      <div className='container'>
-        {Players.map((player, index) => (
+export default function Players() {
+  return(
+    <div className='container'>
+        {players.map((player, index) => (
           <div className='column' key={index}>
             <div className='card'>
               <img src={player.img} alt={player.name} />
@@ -18,6 +17,5 @@ export default class PlayersComponent extends Component {
           </div>
         ))}
       </div>
-    );
-  }
+  )
 }

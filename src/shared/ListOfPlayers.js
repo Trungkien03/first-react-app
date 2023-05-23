@@ -1,4 +1,4 @@
-export const Players =[
+export const players =[
     {id: 1, name: 'Cristiano Ronaldo', club: 'Manchester United', img:'assets/images/cr.jpg'},
     {id: 2, name: 'Kante', club: 'Chelsea', img:'assets/images/kante.jpg'},
     {id: 2, name: 'Messi', club: 'PSG', img:'assets/images/messi.jpg'},
