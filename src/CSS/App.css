@@ -1,17 +1,19 @@
 
 nav{
   text-align: center;
+  background-color: #f1f1f1;
+  color:#333;
 }
 
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #f1f1f1;
   padding: 16px 16px;
 }
 
 nav li {
+  width: 100%;
   display: inline;
 }
 
@@ -29,7 +31,7 @@ nav li a.active {
 
 nav li a:hover:not(.active) {
   background-color: #ddd;
-  color: #333;
+  color: white;
 }
 
 .container {
