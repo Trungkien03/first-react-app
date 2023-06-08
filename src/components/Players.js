@@ -1,6 +1,7 @@
 import React from 'react'
 import { players } from '../shared/ListOfPlayers';
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 export default function Players () {
   const [player, setPlayer] = useState([])
   return (
@@ -12,8 +13,12 @@ export default function Players () {
             <h3>{player.name}</h3>
             <p className="title">{player.club}</p>
             <button onClick={()=>{setPlayer(player)}}>
-            <a href='#popup1' id='openPopUp'>Detail</a>
+            <a href='#popup1' id='openPopUp'>Preview</a>
             </button>
+                <Link to={`detail/${player.id}`}> 
+                 <button>Detail</button>
+                </Link>
+
           </div>
         </div>
       ))}
